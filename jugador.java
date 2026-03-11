@@ -19,8 +19,8 @@ public class jugador{
 	public String nombre;
 	public int dorsal;;
 	public String fecha_nacimiento;
-	public float altura;
-	public float peso;
+	public double altura;
+	public double peso;
 	public String equipo;
 
 
@@ -85,7 +85,21 @@ public class jugador{
 	}
 
 
+	public void informacion(){
 
+	System.out.println("");
+
+	System.out.println("informacion -------- ☻☻☻");
+
+	System.out.println("id: " + this.id);
+	System.out.println("nombre jugador: " + this.nombre);
+	System.out.println("dorsal: " + this.dorsal);
+	System.out.println("fecha nacimiento: " + this.fecha_nacimiento);
+	System.out.println("altura: " + this.altura);
+	System.out.println("peso: " + this.peso);
+	System.out.println("equipo: " + this.equipo);
+
+	}
 
 
 }
